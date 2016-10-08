@@ -6,11 +6,11 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR})
 
 enable_language(CXX)
 
-find_package(kodi REQUIRED)
+find_package(retv REQUIRED)
 find_package(FLAC REQUIRED)
 find_package(Ogg REQUIRED)
 
-include_directories(${KODI_INCLUDE_DIR}
+include_directories(${RETV_INCLUDE_DIR}
                     ${FLAC_INCLUDE_DIRS}
                     ${OGG_INCLUDE_DIRS})
 
